@@ -91,13 +91,15 @@ main {
 }
 main img {
   max-width: 100%;
+  object-fit: cover;
 }
 .row {
   display: flex;
   gap: 15px;
 }
 .col {
-  max-width: 1;
+flex:1;
+max-width: calc(33.33%-10px);
 }
 
 .heart {
@@ -150,7 +152,6 @@ main img {
 
 .first-img:hover {
   opacity: 0;
-  
 }
 .second-img {
   opacity: 0;
@@ -160,5 +161,4 @@ main img {
 }
 .second-img:hover {
   opacity: 1;
-
 }
