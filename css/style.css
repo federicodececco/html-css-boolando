@@ -96,6 +96,7 @@ main img {
 .row {
   display: flex;
   gap: 15px;
+  margin-top: 40px;
 }
 .col {
   flex: 1;
@@ -167,4 +168,40 @@ main img {
 }
 .second-img:hover {
   opacity: 1;
+}
+
+/*---------------------------
+
+    footer
+
+------------------------------*/
+footer {
+  background-color: #1a1a1a;
+  padding: 12px 0;
+  margin-top: 30px;
+}
+footer div {
+  color: white;
+  line-height: 1.7;
+}
+
+footer span {
+  font-size: 14;
+  margin-right: 10px;
+}
+footer .container {
+  display: flex;
+}
+.phantom {
+  flex-grow: 1;
+}
+.ls {
+  min-width: 25%;
+}
+.rs {
+  min-width: 25%;
+  text-align: right;
+}
+footer i{
+    margin-left:5px;
 }
