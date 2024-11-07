@@ -111,8 +111,7 @@ main img {
   background-color: rgb(255, 255, 255);
   font-size: 20px;
 }
-.desc {
-}
+
 .top {
   position: relative;
   font-size: 14px;
@@ -141,10 +140,10 @@ main img {
 .desc span:first-of-type {
   color: red;
   font-weight: bold;
+  padding-right: 5px;
 }
-.desc span:last-of-type {
+.desc span:last-of-type span:not(:first-of-type) {
   text-decoration: line-through;
-  padding-left: 3px;
 }
 .exeption {
   color: white;
@@ -202,6 +201,6 @@ footer .container {
   min-width: 25%;
   text-align: right;
 }
-footer i{
-    margin-left:5px;
+footer i {
+  margin-left: 5px;
 }
